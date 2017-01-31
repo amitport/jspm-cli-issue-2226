@@ -17,19 +17,18 @@
   "homepage": "https://github.com/amitport/jspm-cli-issue-2226#readme",
   "devDependencies": {
     "http-server": "^0.9.0",
-    "jspm": "^0.17.0-beta.37"
+    "jspm": "0.17.0-beta.37"
   },
   "jspm": {
-    "name": "jspm-cli-issue-2226",
-    "main": "jspm-cli-issue-2226.js",
     "dependencies": {
-      "angular-material": "npm:angular-material@1.1.2"
+      "angular": "npm:angular@^1.6.1",
+      "angular-material": "npm:angular-material@1.1.1"
     },
     "devDependencies": {
       "plugin-babel": "npm:systemjs-plugin-babel@^0.0.20"
     },
     "overrides": {
-      "npm:angular-material@1.1.2": {
+      "npm:angular-material@1.1.1": {
         "registry": "npm",
         "map": {
           "css": "systemjs-plugin-css"
@@ -39,6 +38,12 @@
           "angular-animate": "^1.5.3",
           "angular-aria": "^1.5.3",
           "systemjs-plugin-css": "^0.1.9"
+        },
+        "meta": {
+          "angular-material.js": {
+            "deps": ["./angular-material.css!"],
+            "format": "global"
+          }
         }
       },
       "npm:angular@1.6.1": {
