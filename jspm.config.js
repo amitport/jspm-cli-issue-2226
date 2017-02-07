@@ -23,10 +23,10 @@ SystemJS.config({
   ],
   map: {
     "angular": "npm:angular@1.6.1",
-    "angular-material": "npm:angular-material@1.1.1"
+    "angular-material": "npm:angular-material@1.1.3"
   },
   packages: {
-    "npm:angular-material@1.1.1": {
+    "npm:angular-material@1.1.3": {
       "map": {
         "angular": "npm:angular@1.6.1",
         "angular-aria": "npm:angular-aria@1.6.1",
