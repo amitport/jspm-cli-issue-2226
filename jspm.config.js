@@ -22,16 +22,16 @@ SystemJS.config({
     "npm:*.json"
   ],
   map: {
-    "angular": "npm:angular@1.6.1",
+    "angular": "npm:angular@1.6.2",
     "angular-material": "npm:angular-material@1.1.3"
   },
   packages: {
     "npm:angular-material@1.1.3": {
       "map": {
-        "angular": "npm:angular@1.6.1",
-        "angular-aria": "npm:angular-aria@1.6.1",
+        "angular": "npm:angular@1.6.2",
+        "angular-aria": "npm:angular-aria@1.6.2",
         "systemjs-plugin-css": "npm:systemjs-plugin-css@0.1.32",
-        "angular-animate": "npm:angular-animate@1.6.1"
+        "angular-animate": "npm:angular-animate@1.6.2"
       }
     }
   }
