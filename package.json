@@ -17,7 +17,7 @@
   "homepage": "https://github.com/amitport/jspm-cli-issue-2226#readme",
   "devDependencies": {
     "http-server": "^0.9.0",
-    "jspm": "^0.17.0-beta.39"
+    "jspm": "^0.17.0-beta.40"
   },
   "jspm": {
     "dependencies": {
